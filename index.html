@@ -49,19 +49,47 @@
             </p>
           </div>
           <div class="form">
-            <form action="#">
-              <input type="text" placeholder="First Name" tabindex="1" /><br />
-              <input type="text" placeholder="Last Name" tabindex="2" /><br />
-              <input
-                type="email"
-                placeholder="Email Address"
-                tabindex="3"
-              /><br />
-              <input
-                type="password"
-                placeholder="Password"
-                tabindex="4"
-              /><br />
+            <form action="/" id="form">
+              <div class="input-control">
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="First Name"
+                  tabindex="1"
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Last Name"
+                  tabindex="2"
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  tabindex="3"
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                  tabindex="4"
+                />
+                <div class="error"></div>
+              </div>
               <button type="submit" class="submit">
                 Claim your free trial
               </button>
@@ -87,5 +115,6 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
