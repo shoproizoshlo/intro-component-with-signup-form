@@ -24,11 +24,13 @@ const validateForm = (formSelector) => {
       if (input.hasAttribute(option.attribute) && !option.isValid(input)) {
         errorContainer.textContent = option.errorMessage(input, label);
         input.classList.add("border-danger-subtle");
+        errorIcon.classList.remove("hidden");
         formGroupError = true;
       }
     }
     if (!formGroupError) {
       input.classList.remove("border-danger-subtle");
+      errorIcon.classList.add("hidden");
       errorContainer.textContent = "";
     }
   };
