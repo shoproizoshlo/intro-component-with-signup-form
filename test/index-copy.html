@@ -55,7 +55,7 @@
                 <div class="d-flex align-items-center">
                   <input
                     required
-                    minlength="1"
+                    minlength="2"
                     type="text"
                     id="firstName"
                     name="firstName"
@@ -72,10 +72,11 @@
                 <div class="error"></div>
               </div>
               <div class="formGroup">
-                <label for="firstName">Last Name</label>
+                <label for="lastName">Last Name</label>
                 <div class="d-flex align-items-center">
                   <input
                     required
+                    minlength="2"
                     type="text"
                     id="lastName"
                     name="lastName"
@@ -94,8 +95,10 @@
               <div class="formGroup">
                 <label for="firstName">Email Address</label>
                 <div class="d-flex align-items-center">
+                  <!-- here add pattern to validate email address that required include @ symbol-->
                   <input
                     required
+                    pattern="^(.+)@(.+)$"
                     type="text"
                     id="email"
                     name="email"
@@ -116,6 +119,7 @@
                 <div class="d-flex align-items-center">
                   <input
                     required
+                    minlength="6"
                     type="password"
                     id="password"
                     name="password"
