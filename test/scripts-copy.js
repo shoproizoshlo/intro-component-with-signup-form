@@ -23,10 +23,12 @@ const validateForm = (formSelector) => {
     for (const option of validationOptions) {
       if (input.hasAttribute(option.attribute) && !option.isValid(input)) {
         errorContainer.textContent = option.errorMessage(input, label);
+        input.classList.add("border-danger-subtle");
         formGroupError = true;
       }
     }
     if (!formGroupError) {
+      input.classList.remove("border-danger-subtle");
       errorContainer.textContent = "";
     }
   };
