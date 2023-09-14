@@ -51,7 +51,7 @@
           <div class="form">
             <form action="/" id="registrationForm">
               <div class="formGroup">
-                <label for="firstName">First Name</label>
+                <label for="firstName" style="display: none">First Name</label>
                 <div class="d-flex align-items-center">
                   <input
                     required
@@ -69,10 +69,10 @@
                     alt="icon error"
                   />
                 </div>
-                <div class="error"></div>
+                <div class="error" style="display: none"></div>
               </div>
               <div class="formGroup">
-                <label for="lastName">Last Name</label>
+                <label for="lastName" style="display: none">Last Name</label>
                 <div class="d-flex align-items-center">
                   <input
                     required
@@ -90,15 +90,17 @@
                     alt="icon error"
                   />
                 </div>
-                <div class="error"></div>
+                <div class="error" style="display: none"></div>
               </div>
               <div class="formGroup">
-                <label for="firstName">Email Address</label>
+                <label for="firstName" style="display: none"
+                  >Email Address</label
+                >
                 <div class="d-flex align-items-center">
                   <!-- here add pattern to validate email address that required include @ symbol-->
                   <input
                     required
-                    pattern="^(.+)@(.+)$"
+                    pattern="^(.+)@(.+).(.+)"
                     type="text"
                     id="email"
                     name="email"
@@ -112,10 +114,10 @@
                     alt="icon error"
                   />
                 </div>
-                <div class="error"></div>
+                <div class="error" style="display: none"></div>
               </div>
               <div class="formGroup">
-                <label for="firstName">Password</label>
+                <label for="firstName" style="display: none">Password</label>
                 <div class="d-flex align-items-center">
                   <input
                     required
@@ -133,7 +135,7 @@
                     alt="icon error"
                   />
                 </div>
-                <div class="error"></div>
+                <div class="error" style="display: none"></div>
               </div>
 
               <button type="submit" class="submit">

@@ -43,8 +43,10 @@ const validateForm = (formSelector) => {
     for (const option of validationOptions) {
       if (input.hasAttribute(option.attribute) && !option.isValid(input)) {
         errorContainer.textContent = option.errorMessage(input, label);
+        errorContainer.style.display = "block";
         //   add red border around input
         input.classList.add("border-danger-subtle");
+        input.style.margin = "0";
         //   add error icon into input
         errorIcon.classList.remove("hidden");
         //   add error to the input
