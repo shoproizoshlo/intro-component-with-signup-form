@@ -110,20 +110,21 @@ body {
   background: var(--primary-red) url(/images/bg-intro-desktop.png);
 }
 .container {
-  margin: 3% auto;
+  margin: 4% auto;
 }
 .text-area {
-  padding-right: 5%;
+  padding: 20px 5% 10px 0;
   flex: 1;
   max-width: 560px;
 }
 .heading {
   padding-right: 15%;
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
 }
 .description {
   margin-top: 30px;
+  line-height: 22px;
 }
 .details {
   max-width: 550px;
