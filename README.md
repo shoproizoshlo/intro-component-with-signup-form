@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro component with sign up form solution
 
-This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). 
 
 ## Table of contents
 
@@ -36,8 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/shoproizoshlo/intro-component-with-signup-form-master
-- https://sue-intro-component-with-signup-form.netlify.app/
+- Live site - https://sue-intro-component-with-signup-form.netlify.app/
 
 ## My process
 
@@ -94,6 +93,4 @@ const validateAllFormGroups = (formToValidate) => {
 
 ## Author
 
-- Website - [Sue Brechko](https://github.com/shoproizoshlo)
 - Frontend Mentor - [@shoproizoshlo](https://www.frontendmentor.io/profile/shoproizoshlo)
-- Twitter - [@suereact](https://www.twitter.com/suereact)
